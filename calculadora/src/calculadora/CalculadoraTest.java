@@ -21,7 +21,7 @@ public class CalculadoraTest {
 	@Before
 	public void before() {
 		System.out.println("before()");
-		calc2.clear();		
+		calc2.clear();
 	}
 	//
 	@After
@@ -61,7 +61,7 @@ public class CalculadoraTest {
 		calc2.add(3,2);
 		int resultado = calc2.ans();
 		int esperado = 5;
-		assertEquals(esperado,resultado);		
+		assertEquals(esperado,resultado);
 	}
 	//
 	@Test

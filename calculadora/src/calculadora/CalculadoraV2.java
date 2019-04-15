@@ -15,7 +15,7 @@ public class CalculadoraV2 {
 	
 	public int sub(int a, int b) {
 		ans = a - b;
-		return ans;		
+		return ans;
 	}
 	
 	public int div(int a, int b) {
@@ -50,6 +50,6 @@ public class CalculadoraV2 {
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			//e.printStackTrace();
-		}		
+		}
 	}
 }
